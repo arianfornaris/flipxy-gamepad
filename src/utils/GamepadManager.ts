@@ -36,7 +36,7 @@ export class GamepadManager {
 
                     console.log(`[PeerJS] Connecting to gamepad`);
 
-                    this._peer = new Peer("gorila-vs-yeti-" + uuid(), {
+                    this._peer = new Peer("flipxy-gamepad" + uuid(), {
                         debug: 3
                     });
 
