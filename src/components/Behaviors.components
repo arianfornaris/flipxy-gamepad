@@ -1,0 +1,46 @@
+{
+    "components": [
+        {
+            "name": "PreloadText",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Text",
+            "generateGameObjectField": true,
+            "properties": [],
+            "constraints": [],
+            "constraintsCondition": "all"
+        },
+        {
+            "name": "SpineAnimation",
+            "displayName": "",
+            "objectDisplayFormat": "",
+            "baseClass": "UserComponent",
+            "gameObjectType": "SpineGameObject",
+            "generateGameObjectField": true,
+            "properties": [
+                {
+                    "name": "startAnimation",
+                    "label": "Start Animation",
+                    "tooltip": "",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "spine-animation-name",
+                        "isArray": false
+                    }
+                }
+            ],
+            "constraints": [],
+            "constraintsCondition": "all"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    },
+    "outputLang": "TYPE_SCRIPT",
+    "exportClass": true,
+    "autoImport": true
+}

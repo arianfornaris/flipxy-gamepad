@@ -1,0 +1,104 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LevelGamepad",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 720,
+        "borderHeight": 1280
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "5ba49b9d-9cc5-4d6d-ba6e-e7f5aaa0bd0c",
+            "label": "cartoon_Spooky_Level_Set_Background___Layer_00",
+            "texture": {
+                "key": "Cartoon Spooky Level Set_Background - Layer 00"
+            },
+            "x": -959,
+            "y": -35,
+            "scaleX": 1.972108430490048,
+            "scaleY": 1.972108430490048,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Image",
+            "id": "3f252eb2-9f25-4924-9120-a65c49caeefa",
+            "label": "btnFlipY",
+            "scope": "CLASS",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": -27,
+            "hitArea.y": -130,
+            "hitArea.width": 239.8980533710099,
+            "hitArea.height": 335,
+            "texture": {
+                "key": "flipY"
+            },
+            "x": 535,
+            "y": 1120,
+            "scaleX": 1.5,
+            "scaleY": 1.5
+        },
+        {
+            "type": "Image",
+            "id": "582220f6-c2bb-4a00-b225-e82cd3653550",
+            "label": "btnFlipX",
+            "scope": "CLASS",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": -51,
+            "hitArea.y": -130,
+            "hitArea.width": 255.4435726517698,
+            "hitArea.height": 335,
+            "texture": {
+                "key": "flipX"
+            },
+            "x": 185,
+            "y": 1120,
+            "scaleX": 1.5,
+            "scaleY": 1.5
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "7060fc3e-a6a1-41f3-845e-7b56f32411c6",
+            "label": "player1",
+            "scope": "CLASS",
+            "dataKey": "Animations-Flying Monster - 01",
+            "atlasKey": "Animations-Flying Monster - 01-atlas",
+            "skinName": "default",
+            "bpType": 1,
+            "previewAnimation": "",
+            "x": 377.4450863195165,
+            "y": 265,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "e4178d7e-dcb5-46fe-95a5-775929055b91",
+            "label": "player2",
+            "scope": "CLASS",
+            "dataKey": "Animations-Flying Monster - 03",
+            "atlasKey": "Animations-Flying Monster - 03-atlas",
+            "skinName": "default",
+            "bpType": 1,
+            "previewAnimation": "",
+            "x": 377.4450864345634,
+            "y": 253,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "angle": -9
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

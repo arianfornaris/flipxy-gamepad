@@ -1,0 +1,39 @@
+Animations-Flying Monster - 01.png
+size:1046,634
+filter:Linear,Linear
+pma:true
+Face 01
+bounds:804,210,233,196
+offsets:46,15,320,240
+Face 02
+bounds:559,182,233,196
+offsets:46,15,320,240
+Head
+bounds:296,338,294,256
+offsets:13,32,320,320
+rotate:90
+Left Wing
+bounds:559,2,168,178
+offsets:36,31,240,240
+Right Wing
+bounds:794,34,230,174
+offsets:45,33,320,240
+Smoke 00
+bounds:804,408,240,224
+offsets:40,48,320,320
+Smoke 01
+bounds:554,380,252,248
+offsets:34,36,320,320
+rotate:90
+Smoke 02
+bounds:283,39,290,274
+offsets:15,23,320,320
+rotate:90
+Smoke 03
+bounds:2,40,289,279
+offsets:14,22,320,320
+rotate:90
+Smoke 04
+bounds:2,331,301,292
+offsets:7,11,320,320
+rotate:90

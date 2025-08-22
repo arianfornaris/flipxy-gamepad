@@ -1,0 +1,63 @@
+{
+    "id": "862f0276-c9a1-4f2a-bdbd-db8b94faeae3",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 720,
+        "borderHeight": 1280
+    },
+    "displayList": [
+        {
+            "type": "ScriptNode",
+            "id": "8d76d9e4-a19c-4fe6-b875-c4c3687ed31b",
+            "label": "scriptnode_1",
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "d0cf1038-a128-41bc-91bf-ddfb8c50a2fb",
+                    "label": "onPointerDownScript",
+                    "list": [
+                        {
+                            "prefabId": "e29bc630-dabe-4a8c-97e0-45ccb875b877",
+                            "id": "41fda90a-58eb-462f-b529-31c6765ee36e",
+                            "unlock": [
+                                "callback"
+                            ],
+                            "label": "callbackActionScript",
+                            "callback": "() => this.onSelectPlayer()"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "playerId",
+            "label": "Player ID",
+            "tooltip": "",
+            "defValue": "player1",
+            "customDefinition": false,
+            "type": {
+                "id": "option",
+                "isArray": false,
+                "options": [
+                    "player1",
+                    "player2"
+                ]
+            }
+        }
+    ]
+}

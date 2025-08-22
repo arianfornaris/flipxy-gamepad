@@ -1,0 +1,115 @@
+{
+    "id": "f64e1ed2-67e7-4417-9daf-8fbf9881a3c8",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "PlayerSelectorScene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 720,
+        "borderHeight": 1280
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "c602473f-d985-4ae2-bd53-1c27b92ca990",
+            "label": "cartoon_Spooky_Level_Set_Background___Layer_00",
+            "texture": {
+                "key": "Cartoon Spooky Level Set_Background - Layer 00"
+            },
+            "x": -959,
+            "y": -35,
+            "scaleX": 1.972108430490048,
+            "scaleY": 1.972108430490048,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "type": "Text",
+            "id": "a0a966a9-ba22-48c0-a909-bb6c340c73b6",
+            "label": "text",
+            "scope": "NESTED_PREFAB",
+            "x": 355,
+            "y": 1104,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Selecciona el jugador",
+            "fontFamily": "monospace",
+            "fontSize": "40px",
+            "fontStyle": "bold",
+            "color": "#ffffffff",
+            "stroke": "#000000ff",
+            "strokeThickness": 12,
+            "backgroundColor": "",
+            "shadow.offsetX": 1,
+            "shadow.offsetY": 1,
+            "shadow.color": "black"
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "aeb86af5-6449-4be9-99e9-bd6cdd4f67e8",
+            "label": "player1",
+            "components": [
+                "SpineAnimation"
+            ],
+            "SpineAnimation.startAnimation": "Idle",
+            "dataKey": "Animations-Flying Monster - 01",
+            "atlasKey": "Animations-Flying Monster - 01-atlas",
+            "skinName": "default",
+            "bpType": 1,
+            "previewAnimation": "",
+            "x": 334,
+            "y": 847,
+            "list": [
+                {
+                    "prefabId": "862f0276-c9a1-4f2a-bdbd-db8b94faeae3",
+                    "id": "56c16f5d-c488-49b2-8079-9753d59191c7",
+                    "unlock": [
+                        "playerId"
+                    ],
+                    "label": "selectPlayerScript",
+                    "playerId": "player1"
+                }
+            ]
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "a4f46e18-1d4a-4c09-81d7-aedc9a5f1eb7",
+            "label": "player2",
+            "components": [
+                "SpineAnimation"
+            ],
+            "SpineAnimation.startAnimation": "Idle",
+            "dataKey": "Animations-Flying Monster - 03",
+            "atlasKey": "Animations-Flying Monster - 03-atlas",
+            "skinName": "default",
+            "bpType": 1,
+            "previewAnimation": "",
+            "x": 504,
+            "y": 385,
+            "scaleX": -0.64,
+            "scaleY": 0.64,
+            "angle": -9,
+            "list": [
+                {
+                    "prefabId": "862f0276-c9a1-4f2a-bdbd-db8b94faeae3",
+                    "id": "f12660a4-5b4a-4891-906b-cd576a06f8e8",
+                    "unlock": [
+                        "playerId"
+                    ],
+                    "label": "selectPlayerScript_1",
+                    "playerId": "player2"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

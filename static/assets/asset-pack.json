@@ -1,0 +1,51 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Animations-Flying Monster - 01.json",
+                "type": "spineJson",
+                "key": "Animations-Flying Monster - 01",
+                "previewAtlasKey": "Animations-Flying Monster - 01-atlas"
+            },
+            {
+                "url": "assets/Animations-Flying Monster - 01.atlas",
+                "type": "spineAtlas",
+                "key": "Animations-Flying Monster - 01-atlas"
+            },
+            {
+                "url": "assets/Animations-Flying Monster - 03.json",
+                "type": "spineJson",
+                "key": "Animations-Flying Monster - 03",
+                "previewAtlasKey": "Animations-Flying Monster - 03-atlas"
+            },
+            {
+                "url": "assets/Animations-Flying Monster - 03.atlas",
+                "type": "spineAtlas",
+                "key": "Animations-Flying Monster - 03-atlas"
+            },
+            {
+                "url": "assets/Cartoon Spooky Level Set_Background - Layer 00.png",
+                "type": "image",
+                "key": "Cartoon Spooky Level Set_Background - Layer 00"
+            },
+            {
+                "url": "assets/flipX.png",
+                "type": "image",
+                "key": "flipX"
+            },
+            {
+                "url": "assets/flipY.png",
+                "type": "image",
+                "key": "flipY"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}
