@@ -1,10 +1,10 @@
-# A gamepad for Gorilla vs Yeti.
+# A gamepad for Flipxy.
 
 This gamepad should be embedded into the game distribution, desktop or android.
 
 For testing it in development:
 
-- Run the `gorilla-vs-yeti-desktop` project with `npm run dev-all` command.
+- Run the `flipxy-desktop` project with `npm run dev-all` command.
 - Compile this project with: `npm start`.
 - Open browser in `http://localhost:9091/?gamepad-ws=ws://localhost:8082`.
 
